@@ -304,3 +304,20 @@ report
   font-size: large;
  }
  
+ #case2 li{
+   display: flex;
+   background: color rgb(0, 0, 255);
+   padding-bottom: 20px
+ }
+
+ #case2 li .year{
+   background-color:rgb(255, 0, 0);
+   width: 100px;
+   font-size:20px;
+   font-weight: bold; 
+ }
+
+ #case2 li .content{
+   background-color:rgb(0, 255, 0);
+   flex: 1;
+ }
